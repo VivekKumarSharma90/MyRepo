@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        Toast.makeText(MainActivity.this,"MyRepoApp",Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "MyRepoApp", Toast.LENGTH_LONG).show();
+        //Toast.makeText(MainActivity.this,"MyRepoApp",Toast.LENGTH_LONG).show();
+        //Toast.makeText(MainActivity.this,"MyRepoApp",Toast.LENGTH_LONG).show();
         return true;
     }
 
